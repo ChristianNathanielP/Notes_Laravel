@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Patrick+Hand&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bayangan {
+  box-shadow : 10px 10px 5px rgba(0, 0, 0, 1);
+}
+.bayangan2 {
+  box-shadow : 10px 10px rgba(0, 0, 0, 1);
+}
+
+.bayangan_low {
+  box-shadow : 6px 6px  rgba(0, 0, 0, 1);
+}
+
+.reverse-bayangan {
+  box-shadow : 6px -6px 5px rgba(0, 0, 0, 1);
+}
+
+.active-a:active {
+  transform: translateX(0.25rem) translateY(0.25rem);
+  box-shadow: none;
+}
+
