@@ -9,7 +9,7 @@
             @foreach ($notes as $note)
             <div class="lg:w-[400px]  h-[350px] bg-biru1 px-3 bayangan2">
                 <div class="text-right py-1.5 text-kuning">
-                    {{ $note->created_at->diffForHumans() }}
+                    {{ $note->updated_at->diffForHumans() }}
                 </div>
                 <div class="bg-biru2 rounded-md px-5 lg:py-5 py-3 text-base h-64 text-putih overflow-hidden">
                     {{ Str::limit(strip_tags($note->note), 450) }}

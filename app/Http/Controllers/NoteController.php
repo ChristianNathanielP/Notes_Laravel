@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Models\Note;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Log;
 
 
 class NoteController extends Controller
@@ -16,7 +15,7 @@ class NoteController extends Controller
     {
         $notes = Note::query()
             ->where('user_id', auth()->id())
-            ->orderBy('created_at', 'desc')
+            ->orderBy('updated_at', 'desc')
             ->paginate(9);
         return view('note.index', ['notes' => $notes]);
     }
