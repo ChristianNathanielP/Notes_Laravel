@@ -53,3 +53,25 @@ Visit `http://localhost:8000` in your browser.
     - View Notes: Access your notes from the notes-card.
     - Edit Notes: Click "Edit" on any note to modify it.
     - Delete Notes: Remove notes by clicking the "Delete" button.
+
+## Documentation
+
+### Create/Login Account
+![image](https://github.com/user-attachments/assets/1cc30832-5b78-4a6f-a25b-b62900e67552)
+![image](https://github.com/user-attachments/assets/2c19c156-56cf-468c-86cc-2ee6fc308dd3)
+
+### Home Page
+![image](https://github.com/user-attachments/assets/cf70ffc0-377e-42d9-ab4e-ca0fe8e20943)
+
+### CRUD
+![image](https://github.com/user-attachments/assets/26fb78ac-2b76-4d99-8ebd-590ac37df317)
+![image](https://github.com/user-attachments/assets/7a8d9ac5-4486-48d2-a4da-b7a62faf8906)
+![image](https://github.com/user-attachments/assets/2d64d867-84d8-4e7d-83c2-ac3b4c8b056d)
+
+### Profile
+![image](https://github.com/user-attachments/assets/44be96cc-7554-413b-beaf-ad495ed70efb)
+![image](https://github.com/user-attachments/assets/084c220c-d4cd-4649-bd09-172c1b19339d)
+
+
+
+
